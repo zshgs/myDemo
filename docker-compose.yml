@@ -1,0 +1,10 @@
+version: '3'
+services:
+  backend:
+    image: demo-backend:latest
+    ports:
+      - "8080:8080"
+  frontend:
+    image: demo-frontend:latest
+    ports:
+      - "3000:3000"
